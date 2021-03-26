@@ -46,5 +46,21 @@ header nav .nav-right-section {  /*Incluímos la sección principal, el contened
 
 nav .nav-right-section a {
     margin-right: 10px; /* Márgen entre cada elemento ancla <a> */
-    color: #000000; /* Color de texto*/
+    color: #212121; /* Color de texto*/
+}
+
+
+nav .nav-right-section .menu-icon {
+    background-image: url("/HTML_CSS-Práctico/Proyecto_Google-Clone/assets/dots-menu.svg");
+    background-repeat: none; /*Para evitar repetir la imagen*/
+    background-position: center; 
+    background-size: contain;  /*Para que se aproxime al tamaño del contenedor*/
+    width: 17px;
+    height: 17px;
+    margin-left: 28px;
+}
+
+nav .nav-right-section .menu-photo img {
+    border-radius: 50%; /*al ser de 50 redondeará cada esquina hasta hacer un circulo.*/
+    margin-left: 21px;
 }
