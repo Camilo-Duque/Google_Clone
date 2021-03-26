@@ -1,0 +1,50 @@
+/*Reset general para estilos base */
+/* * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} */
+
+html {
+    font-size: 62.5%;
+}
+
+/* */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Parámetro global para todos los elemenetos tipo ancla <a> */
+a {
+    text-decoration: none; /*Para quitar la línea del texto tipo enlace*/
+    cursor: pointer; /*Efecto gráfico del cursor al realizar un mouse-over sobre los elementos ancla.*/
+}
+
+/* Estilos para el header */
+header {
+    width: 100%; /*Para abarcar todo el ancho de la pantalla*/
+    height: 60px; /* Altura de la etiqueta del header*/
+}
+
+/*Estilos y posición de barra de navegación*/
+header nav {
+    display: flex;  /* Permitirá posicionar el contenido de una manera dinámica*/
+    justify-content: flex-end; /* Justificación del contenido al final del display */
+}
+
+header nav .nav-right-section {  /*Incluímos la sección principal, el contenedor y finalmente la clase*/
+    width: 250px;
+    height: auto;  /*Se deja automática ya que el padre tiene 60px y no podrá sobrepasarlo*/
+    display: flex; /*Para poder posicionar los elementos del nav*/
+    list-style: none; /*Para quitar los bullets*/
+    justify-content: center; /*Para ajustar centrado horizontal*/
+    align-items: center; /*Para ajustar centrado vertical*/
+}
+
+nav .nav-right-section a {
+    margin-right: 10px; /* Márgen entre cada elemento ancla <a> */
+    color: #000000; /* Color de texto*/
+}
