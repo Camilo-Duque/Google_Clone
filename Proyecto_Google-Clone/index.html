@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Clone</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -28,7 +29,7 @@
             <div class="main-input-container">
                 <span class="search-icon"></span> <!--Usamos un span por ser un ícono fijo sin interacción -->
                 <input type="text"> <!--Barra de busqueda tipo input-->
-                <a class="micro-icon" href="#" aria-label="Búsqueda por voz"></a> <!-- usamos una ancla ya que realiza una acción de búsqueda por voz -->
+                <a class="micro-icon" class="tooltip" href="#"></a> <!-- usamos una ancla ya que realiza una acción de búsqueda por voz -->
             </div>
         </section>
         <section class="main-buttons">
@@ -38,7 +39,7 @@
            <div>
                <button>Me siento con suerte!</button>
             </div>
-            <p>Ofrecido por Google en: <a href="#">English</a> <a href="#">Español (Latinoamérica)</a>             </p>
+            <p class="google-language">Ofrecido por Google en: <a href="#">English</a> <a href="#">Español (Latinoamérica)</a></p>
         </section>
         <div class="footer-top-bar">
             <p>Colombia</p>

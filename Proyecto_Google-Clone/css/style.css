@@ -49,6 +49,10 @@ nav .nav-right-section a {
     color: #212121; /* Color de texto*/
 }
 
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
 /*ícono de aplicaciones, multidot*/
 nav .nav-right-section .menu-icon {
     background-image: url("/HTML_CSS-Práctico/Proyecto_Google-Clone/assets/dots-menu.svg");
@@ -143,6 +147,7 @@ main .main-input .micro-icon {
     cursor: pointer;
 }
 
+
 /*########### Estilos para botones de búsqueda ###########*/
 main .main-buttons {
     width: 530px; /*Width igual al de todos los contenedores*/
@@ -162,6 +167,10 @@ main .main-buttons p {
 main .main-buttons p a {
     font-size: 1.3rem;
     padding: 0px 3px;
+}
+
+main .main-buttons p a:hover {
+    text-decoration: underline;
 }
 
 main .main-buttons button {
@@ -211,10 +220,10 @@ footer {
     height: 46px;
     position:absolute; /*Para asegurar que el contenedor footer estará al tope de la página*/
     bottom: 0; /*Para asegurar que el contenedor footer estará al tope de la página*/
-    display: grid;
-    grid-template-columns: 1fr 1fr; /*Generamos una cuadrícula de 2 fracciones*/
-    align-items: center; /**/
-    font-size: 1.4rem;
+    display: grid; /*Utilizamos el parámetro grid para poder formatear a 2 columnas el layout footer.*/
+    grid-template-columns: 1fr 1fr; /*Generamos una cuadrícula de 2 fracciones con base a grid*/
+    align-items: center; /*centrado de items*/
+    font-size: 1.4rem; 
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
 }
@@ -246,4 +255,8 @@ footer .footer-right {
 footer ul li a {
     margin: 10px;
     color: #70757A;
+}
+
+footer ul li a:hover {
+   text-decoration: underline;
 }
