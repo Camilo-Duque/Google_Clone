@@ -5,18 +5,17 @@ This repo contains a clone of the first window of Google as the basic behaviors 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
+<br>
+
 ## GitHub Pages 💻📱:
 Check the results of this project here:
 
 https://camilo-duque.github.io/Project_Google_Clone/
 
-<br>
 
 ## Requirements
 
  - Browser: Google Chrome, Mozilla Firefox, Microsoft Edge, IE.
-
-<br>
 
 ## Connect with me
 
