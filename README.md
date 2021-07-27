@@ -7,6 +7,7 @@ This repo contains a clone of the first window of Google as the basic behaviors 
 
 ## GitHub Pages 💻📱:
 Check the results of this project here:
+
 https://camilo-duque.github.io/Project_Google_Clone/
 
 <br>
